@@ -1,6 +1,5 @@
 import os
 from flask import Flask, request, jsonify
-
 app = Flask(__name__)
 
 VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "")
